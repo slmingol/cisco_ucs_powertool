@@ -19,6 +19,7 @@ RUN apt-get update && \
 RUN mkdir -p ~/.local/share/powershell/Modules
 RUN mkdir -p ~/.config/powershell/
 
+# Install Cisco UCS powertool
 # ADD https://communities.cisco.com/servlet/JiveServlet/download/74217-2-149644/ucspowertoolcore.zip /tmp
 ADD https://community.cisco.com/kxiwq67737/attachments/kxiwq67737/4354j-docs-cisco-dev-ucs-integ/518/2/ucspowertoolcore.zip /tmp
 RUN unzip /tmp/ucspowertoolcore.zip -d ~/.local/share/powershell/Modules/

@@ -112,7 +112,7 @@ Successfully tagged cisco_ucs_powertool:latest
 
 ### Example
 ```
-docker run -it cisco_ucs_powertool
+$ docker run -it cisco_ucs_powertool
 PowerShell 6.1.1
 Copyright (c) Microsoft Corporation. All rights reserved.
 
